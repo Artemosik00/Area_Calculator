@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Area Calculator</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="enter">Вход</string>
+    <string name="my_name">Разработчик: Сиваков Артем Владимирович, Группа:РИБО-05-22</string>
+    <string name="enter_side_of_the_square">Введите сторону квадрата a</string>
+    <string name="side_of_square">Сторона квадрата</string>
+    <string name="count">Считай</string>
+    <string name="square_area">S=a^2</string>
+    <string name="result_s">Result S</string>
+    <string name="result_p">Result P</string>
+    <string name="square_perimeter_formula">P=4*a</string>
+    <string name="enter_sides_of_rectangle">Введите стороны a и b</string>
+    <string name="side_a">Сторона а</string>
+    <string name="side_b">Сторона b</string>
+    <string name="rectangle_area_formula">S = a * b</string>
+    <string name="rectangle_perimeter_formula">P = 2 * a * b</string>
+    <string name="enter_sides_and_height">Введите три стороны треугольника и высоту</string>
+    <string name="side_pq">Строна PQ</string>
+    <string name="enter_qr">Сторона QR</string>
+    <string name="enter_pr">Сторона PR</string>
+    <string name="height_h">Высота h</string>
+    <string name="triangle_area_formula">S = 1/2 * a * h</string>
+    <string name="triangle_perimeter_formula">P = PQ + QR + PR</string>
+    <string name="enter_the_side_and_height">Введите сторону ромба и его высоту</string>
+    <string name="rhomb_area_formula">S = a * h</string>
+    <string name="rhomb_perimeter_formula">P = 4 * a</string>
+    <string name="enter_sides_of_trapezoid_and_height">Введите 4 стороны трапеции и высоту</string>
+    <string name="side_ab">Строна AB</string>
+    <string name="side_bc">Сторона BC</string>
+    <string name="side_cd">Сторона CD</string>
+    <string name="side_ad">Сторона AD</string>
+    <string name="trapezoid_area_formula">S = 1/2 * (a+b) * h</string>
+    <string name="trapezoid_perimeter_formula">P = AB + BC + CD + AD</string>
+    <string name="enter_radius">Введите радиус окружности</string>
+    <string name="radius_circle">Радиус окружности</string>
+    <string name="circle_area_formula">S = π * R^2</string>
+    <string name="circle_perimeter_formula">P = 2 * π * R</string>
+    <string name="share_result">Поделиться результатом</string>
+</resources>

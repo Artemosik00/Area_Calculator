@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ListOfFigures">
+
+    <ImageView
+        android:id="@+id/squareImage"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginEnd="79dp"
+        android:layout_marginBottom="50dp"
+        android:src="@drawable/square"
+        app:layout_constraintBottom_toTopOf="@+id/triangleImage"
+        app:layout_constraintEnd_toStartOf="@+id/rectangleImage"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/rectangleImage"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="50dp"
+        android:src="@drawable/rectangle"
+        app:layout_constraintBottom_toTopOf="@+id/rhombImage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/squareImage"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/triangleImage"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="79dp"
+        android:layout_marginBottom="55dp"
+        android:src="@drawable/triangle"
+        app:layout_constraintBottom_toTopOf="@+id/trapezoidImage"
+        app:layout_constraintEnd_toStartOf="@+id/rhombImage"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/squareImage" />
+
+    <ImageView
+        android:id="@+id/rhombImage"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="55dp"
+        android:src="@drawable/rhomb"
+        app:layout_constraintBottom_toTopOf="@+id/circleImage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/triangleImage"
+        app:layout_constraintTop_toBottomOf="@+id/rectangleImage" />
+
+    <ImageView
+        android:id="@+id/trapezoidImage"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="79dp"
+        android:layout_marginBottom="86dp"
+        android:src="@drawable/trapezoid"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/circleImage"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/triangleImage" />
+
+    <ImageView
+        android:id="@+id/circleImage"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="86dp"
+        android:src="@drawable/circle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/trapezoidImage"
+        app:layout_constraintTop_toBottomOf="@+id/rhombImage" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
